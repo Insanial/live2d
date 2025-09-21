@@ -1,24 +1,27 @@
+
 #waifu-toggle {
 	background-color: #fa0;
 	border-radius: 5px;
-	bottom: 66px;
+	position: fixed;
+	left: -20px; /* 水平偏移 -20px */
+	bottom: -20px; /* 垂直偏移 -20px */
 	cursor: pointer;
 	display: flex;
 	justify-content: flex-end;
-	left: 0;
-	margin-left: -100px;
 	padding: 5px;
-	position: fixed;
-	transition: margin-left 1s;
-	width: 60px;
+	width: 150px; /* 宽度 150px */
+	height: 262.5px; /* 高度 262.5px */
+	transition: left 1s;
 }
+
 
 #waifu-toggle.waifu-toggle-active {
-	margin-left: -50px;
+	left: 0;
 }
 
+
 #waifu-toggle.waifu-toggle-active:hover {
-	margin-left: -30px;
+	left: 10px;
 }
 
 #waifu-toggle svg {
