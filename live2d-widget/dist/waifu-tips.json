@@ -257,7 +257,7 @@
   },
   "models": [{
     "name": "Chtholly",
-    "paths": ["https://gcore.jsdelivr.net/gh/Insanial/live2d@v0.0.2/kutori/kutori.model.json"],
+    "paths": ["https://fastly.jsdelivr.net/gh/Insanial/live2d@v1.0.1/kutori/kutori.model.json"],
     "message": "珂朵莉··· 我叫 珂朵莉"
   }]
 }
